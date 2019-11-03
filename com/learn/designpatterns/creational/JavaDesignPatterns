@@ -1,0 +1,19 @@
+#Creational
+    *Singleton design pattern
+        -Eager initialization
+        -Lazy
+        -Billpugh
+        -ThreadSafe
+    *Factory design pattern
+    *Abstract factory pattern
+    *Builder pattern
+    *Prototype pattern
+
+#Structural design patterns
+    *Adaptor pattern
+    *
+
+# Miscellaneous Design Patterns
+    *DAO
+    *MVC
+    *DI

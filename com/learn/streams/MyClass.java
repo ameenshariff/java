@@ -6,12 +6,23 @@ import java.util.Objects;
 public class MyClass {
     String label,value;
 
+    public MyClass setLabel(String label) {
+        this.label = label;
+        return this;
+    }
+
+    public MyClass setValue(String value) {
+        this.value = value;
+        return this;
+    }
+
     public MyClass(String label, String value) {
         this.label = label;
         this.value = value;
     }
 
-
+    public MyClass() {
+    }
 
     @Override
     public boolean equals(Object o) {
@@ -27,12 +38,5 @@ public class MyClass {
                 '}';
     }
 
-    public void some(String s){
-        value.compareToIgnoreCase(s);
-    }
 
-//    @Override
-//    public int compareTo(MyClass myClass) {
-//        return value.compareToIgnoreCase(myClass.value);
-//    }
 }
